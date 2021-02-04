@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JSer.info</title>
+    <meta name="description" content="JavaScriptの最新情報を紹介する週刊ブログ">
+    
+    <meta name="keywords" content="JavaScript,ブラウザ,ECMAScript" />
+    
+    <meta name="author" content="azu">
+    
+    
+    
+    
+    
+    <link rel="canonical" href="https://jser.info/page/18/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://jser.info/rss/">
+    <link rel="apple-touch-icon" sizes="57x57" href="/public/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/public/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/public/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/public/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/public/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/public/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/public/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/public/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/public/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/public/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/public/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/public/img/favicon/favicon-16x16.png" sizes="16x16">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/public/img/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/public/css/index.css">
+    <!-- JavaScript -->
+    <script src="/public/js/switch-alt-link.js"></script>
+    <!-- Open graph tags -->
+<meta name="twitter:card" content="JavaScriptの最新情報を紹介する週刊ブログ" />
+<meta name="twitter:site" content="@jser_info" />
+
+
+<meta property="og:title" content="JSer.info">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jser.info/page/18/">
+<meta property="og:image" content="https://jser.info/media/logo.png">
+
+<meta property="og:description" content="JavaScriptの最新情報を紹介する週刊ブログ">
+<meta property="og:site_name" content="JSer.info">
+
+
+
+
+
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src='/public/js/autotrack.custom.js'></script>
+<script async>
+    window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-2184335-9', 'auto');
+    ga('send', 'pageview');
+    // autotrack plugin
+    ga('require', 'eventTracker');
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'maxScrollTracker');
+    ga('require', 'pageVisibilityTracker');
+    // Add _blank
+    document.addEventListener('DOMContentLoaded', function () {
+        var links = Array.prototype.slice.call(document.querySelectorAll("a[href^='http']:not([href*='jser.info'])"));
+        // add _blank and track
+        links.forEach(function (link) {
+            if (!link.target) {
+                link.target = "_blank";
+            }
+        });
+    });
+</script>
+
+</head>
+
+
+<body>
+<header>
+    <a href="https://github.com/jser/jser.github.io" class="github-ribbon">
+        <img style="position: absolute; top: 0; right: 0; border: 0;"
+             src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+             alt="Fork me on GitHub"
+             data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+    </a>
+    <div class="global-header">
+    <h1 class="site-title"><a href="/"><img alt="JSer.info" src="/public/img/logo.png" /></a></h1>
+    <h2 class="site-description">JavaScriptの最新情報を紹介する週刊ブログ</h2>
+    <nav class="lang-menu">
+        <ul>
+            <li><a href="/" data-alt-href="/page/18/">日本語</a></li>
+            <li><a href="/ko/" data-alt-href="/ko/page/18/">한국어</a></li>
+        </ul>
+        
+        <div>
+            <p>リアルタイム版は<a href="https://realtime.jser.info/" title="Realtime JSer.info">Realtime JSer.info</a></p>
+        </div>
+        
+    </nav>
+</div>
+
+</header>
+<div class="content-wrapper">
+    <article>
+        <div class="page-content">
+            
+
+<div class="home">
+
+    <h1>投稿一覧</h1>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/12/26/service-worker-in-msedgesafari-jest-22-jquery-uimobile/">2017-12-26のJS: Service Worker in MSEdge/Safari、Jest 22、jQuery UIとMobileの統合</a></h1>
+            </header>
+            <p>JSer.info #363 - MSEdge(Insider build)とSafari(Technology Preview)でそれぞれService Workerが実装されたことについてのブログが公開されました。
+
+
+Servi...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年12月26日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/12/19/javascript2017-react-cqrseventsourcing/">2017-12-19のJS: JavaScript開発者アンケート2017、Reactのインフラ、CQRS/EventSourcing</a></h1>
+            </header>
+            <p>JSer.info #362 - The State of JavaScript 2017: IntroductionにてJavaScriptを使う開発者向けアンケートの結果が公開されています。
+
+JavaScriptのフロントエンド...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年12月19日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/12/11/parcel-webpack-4.0.0a-node.js-performance/">2017-12-11のJS: Parcel、webpack 4.0.0α、Node.js Performance改善ガイド</a></h1>
+            </header>
+            <p>JSer.info #361 - 設定より規約(Convention over configuration)なbundlerであるParcelがリリースされました。
+
+
+🚀 Announcing Parcel: A blazing f...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年12月11日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/12/05/npm-5.6.0beta-react-16.2.0-new-ecmascript-proposals/">2017-12-05のJS: npm 5.6.0(beta)、React 16.2.0、New ECMAScript Proposals</a></h1>
+            </header>
+            <p>JSer.info #360 - npm 5.6.0(beta)が公開されています。
+
+
+The npm Blog — v5.6.0 (2017-11-27)
+
+
+2017-11-27時点ではβリリース
+
+
+
+
+Fully cross...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年12月05日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/11/28/firefox-58-emscripten-webassembly-rust/">2017-11-28のJS: Firefox 58の変更点、Emscripten/WebAssembly/Rust</a></h1>
+            </header>
+            <p>JSer.info #359 - New in Firefox 58: Developer Edition – Mozilla Hacks – the Web developer blogではFirefox 58(開発版)での変更点に...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年11月28日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/11/19/firefox-57-javascript-momentluxon/">2017-11-19のJS: Firefox 57、JavaScriptのコスト、momentとLuxon</a></h1>
+            </header>
+            <p>JSer.info #358 - Firefox 57がリリースされました。
+
+
+Firefox — Notes (57.0) — Mozilla
+Introducing the New Firefox: Firefox Quantu...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年11月19日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/11/14/react-v16.1.0-firefox-devtools-docusaurus/">2017-11-14のJS: React v16.1.0、Firefox DevTools、Docusaurus</a></h1>
+            </header>
+            <p>JSer.info #357 - React v16.1.0がリリースされました。
+
+
+Release v16.1.0 · facebook/react
+
+
+Bower向けの配布は終了したため代わりにCDNの利用の推奨しています。Re...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年11月14日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/11/07/typescript-2.6.-node.js-8.9.0-lts-angular-5.0.0/">2017-11-07のJS: TypeScript 2.6.、Node.js 8.9.0 LTS、Angular 5.0.0</a></h1>
+            </header>
+            <p>JSer.info #356 - TypeScript 2.6が正式にリリースされました。
+
+
+Announcing TypeScript 2.6 | TypeScript
+
+
+strictFunctionTypesオプションが有効時...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年11月07日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/10/31/node.js-8.8.0-chrome-63b-property-based-testing/">2017-10-30のJS: Node.js 8.8.0、Chrome 63β、Property-Based Testing</a></h1>
+            </header>
+            <p>JSer.info #355 - Node.js v8.8.0がリリースされました。
+
+
+Node v8.8.0 (Current) | Node.js
+
+
+http2モジュールがデフォルトで有効化、モジュールのhookを処理を扱える...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年10月31日</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="article">
+            <header>
+                <h1><a href="/2017/10/24/ckeditor-5-mdn-web-docs/">2017-10-24のJS: CKEditor 5、MDN Web Docsへのドキュメント統合</a></h1>
+            </header>
+            <p>JSer.info #354 - Mozilla、Microsoft、Google、W3Cが協調してウェブ開発のドキュメントをMDN Web Docsに集約していくことを発表しました。
+
+
+Mozilla brings Microso...</p>
+            <div class="post-meta">
+                <span class="post-date">2017年10月24日</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pagination links -->
+    <nav>
+        <div class="pagination">
+            
+                
+                <a href="/page/17/" class="previous">新しい記事へ</a>
+                
+            
+            <span class="page_number ">Page: 18 of 58</span>
+            
+            <a href="/page/19/" class="next" rel="next">古い記事へ</a>
+            
+        </div>
+    </nav>
+</div>
+
+        </div>
+    </article>
+    <aside>
+        <div class="page-sidebar">
+    <div class="profile">
+        <a href="https://twitter.com/azu_re" title="The author's Twitter"><img src="/public/img/azu.png" alt="azu image"></a>
+
+        <h2><a href="https://twitter.com/azu_re">azu</a></h2>
+    </div>
+    
+    <div class="social-icons">
+        <a class="social-icon__twitter" href="https://twitter.com/jser_info" title="Twitter">
+            <img src="/public/svg/twitter.svg" alt="twitter">
+        </a>
+        <a class="social-icon__github" href="https://github.com/jser" title="GitHub">
+            <img src="/public/svg/github.svg" alt="GitHub">
+        </a>
+        <a class="social-icon__rss" href="https://jser.info/rss/" title="RSS Feed">
+            <img src="/public/svg/feed.svg" alt="RSS">
+        </a>
+        <a class="social-icon__feedly" href='https://feedly.com/i/subscription/feed%2Fhttps://jser.info/rss/'
+            target='blank'>
+            <img id='feedlyFollow' src='https://s3.feedly.com/img/follows/feedly-follow-square-flat-green_2x.png' alt='follow us in feedly'
+                width='28' height='28'></a>
+    </div>
+    
+    <div class="slack-bar">
+        <a class="social-icon__slack" href='https://get.slack.help/hc/ja/articles/218688467-Slack-%E3%81%AB-RSS-%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B'
+            target='blank'>
+            <img src="/public/svg/slack.svg" alt="Slack" width="50" height="50"/>
+            SlackにRSSを追加する
+        </a>
+    </div>
+    
+    <nav>
+        <div class="search-bar">
+            <div class="search-and-submit">
+                <form class="search-box" method="get" action="https://www.google.co.jp/search">
+                    <input type="search" name="q" placeholder="Enter Search" />
+                    <input type="hidden" name="q" value="site:jser.info">
+                    <button type="submit">
+                        <span class="drawic drawic-search"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="side-menu">
+            <h1>ページ</h1>
+            <ul>
+                <li><a class="page-link" href="https://jser.info/about/">JSer.infoについて</a></li>
+                <li><a class="page-link" href="https://jser.info/support/">Support</a></li>
+                <li><a class="github-button" href="https://github.com/sponsors/azu" data-icon="octicon-heart" data-size="large"
+                    aria-label="Sponsor @azu on GitHub">GitHub Sponsors</a></li>
+                <script async defer src="https://buttons.github.io/buttons.js"></script>
+            </ul>
+        </div>
+        <div class="side-menu">
+            <h1>最近の投稿</h1>
+            <ul>
+                
+                
+                <li><a class="page-link" href="/2021/02/02/webrtc-1.0-firefox-85-chrome-89-beta/">2021-02-02のJS: WebRTC 1.0、Firefox 85、Chrome 89 Beta</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2021/01/26/webpack-5.17.0lazycompilation-deno-1.7-open-web-docs/">2021-01-26のJS: webpack 5.17.0(lazyCompilation)、Deno 1.7、Open Web Docs</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2021/01/18/snowpack-3.0-front-end-performance-checklist-state-of-js-2020/">2021-01-18のJS: Snowpack 3.0、Front-End Performance Checklist、State of JS 2020</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2021/01/16/jser-10th/">JSer.info 10周年: JavaScript情報の集め方、書き方、まとめ方</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2021/01/12/node.jsesm-typescriptjsdocjavascript/">2021-01-12のJS: Node.jsライブラリのESM対応の計画、TypeScriptとJSDocでJavaScriptの型チェック</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2021/01/07/wasmer-1.0-2021-xstyled/">2021-01-07のJS: Wasmer 1.0、2021年のウェブ標準とブラウザ、xstyled</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2020/12/29/css-snapshot-2020-100-flowtypescript/">2020-12-29のJS: CSS Snapshot 2020、100万のサイトをクロールした調査結果、FlowからTypeScriptへの移行</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/2020/12/22/lighthouse-7.0.0-react-server-components-micro-frontends-architecture-patterns/">2020-12-22のJS:  lighthouse 7.0.0、React Server Components、Micro Frontends Architecture Patterns</a></li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+</div>
+    </aside>
+</div>
+<footer>
+    <div class="page-footer">
+    <div class="copyright-footer">
+        <div class="copyright">
+            <p>JSer.info is maintained by @<a href="https://twitter.com/azu_re"
+                                              title="azu (azu_re) on Twitter">azu_re</a>.
+            </p>
+        </div>
+        <div class="cc-license">
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative commons LISENCE"
+                                                                                     style="border-width:0"
+                                                                                     src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+        </div>
+    </div>
+</div>
+
+</footer>
+<style>
+    @media screen and (max-width: 1000px) and (max-height: 800px) {
+        .ping-show-button {
+            display: none !important;
+        }
+    }
+
+    .ping-show-button {
+        color: #000000;
+        z-index: 100;
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+        padding: 1em 3em;
+        background-color: #ffffff;
+        border: 1px solid #868686;
+        border-top-left-radius: .5em;
+        border-top-right-radius: .5em;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<a 
+    class="ping-show-button"
+    href="https://join.slack.com/t/jserinfo/shared_invite/zt-g2shzp7o-f_tj6OaphCAFw5Qlt2Jw0A"
+    ga-on="click"
+    ga-event-category="Slack"
+    ga-event-action="click"
+><img src="/public/svg/slack.svg" alt="" width="28" height="28" /><span>JSer.info Slackに参加する</span></a>
+
+</body>
+</html>
